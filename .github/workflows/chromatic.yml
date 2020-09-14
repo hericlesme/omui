@@ -1,9 +1,6 @@
 name: Run Chromatic
 
-on:
-  push:
-    branches:
-      - "!master"
+on: push
 
 jobs:
   deploy:
